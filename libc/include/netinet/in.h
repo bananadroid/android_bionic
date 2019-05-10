@@ -57,6 +57,8 @@ typedef uint32_t in_addr_t;
 #endif
 typedef uint16_t in_port_t;
 
+typedef uint32_t in_addr_t;
+
 int bindresvport(int __fd, struct sockaddr_in* __sin);
 
 #if __ANDROID_API__ >= 24
