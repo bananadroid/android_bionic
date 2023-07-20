@@ -35,7 +35,6 @@ TEST(wchar, sizeof_wchar_t) {
 }
 
 TEST(wchar, mbrlen) {
-  char bytes[] = { 'h', 'e', 'l', 'l', 'o', '\0' };
   EXPECT_EQ(0U, mbrlen(&bytes[0], 0, nullptr));
   EXPECT_EQ(1U, mbrlen(&bytes[0], 1, nullptr));
 
