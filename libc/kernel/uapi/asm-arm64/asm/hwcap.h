@@ -87,4 +87,5 @@
 #define HWCAP2_CSSC (1UL << 34)
 #define HWCAP2_RPRFM (1UL << 35)
 #define HWCAP2_SVE2P1 (1UL << 36)
+#define HWCAP2_MOPS (1UL << 43)
 #endif
